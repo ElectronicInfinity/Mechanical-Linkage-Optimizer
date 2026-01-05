@@ -383,7 +383,7 @@ class LinkageEditor:
         self.ax.set_title("L-Click: Add | R-Click: Remove | Drag: Move \n  0,0 is always forced to be the postion of the root point  \n transforming points while preserving relative postitons still changes solutions")
 
         
-        self.targets = [np.array([5.1, 4])/2,np.array([6, 3])/2]
+        self.targets = [np.array([5.1, 4])/2,np.array([7, 5])/2]
         self.points_plot, = self.ax.plot([p[0] for p in self.targets], [p[1] for p in self.targets], 'bo', picker=5)
         self.path_plot, = self.ax.plot([], [], 'r--', alpha=0.5)
         self.link_lines = [self.ax.plot([], [], color=c, lw=2)[0] for c in ['red', 'green', 'blue', 'magenta']]
