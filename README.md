@@ -4,4 +4,4 @@ The provided program also contains in it a lot of settings for the optimizer and
 
 WORKS BEST WITH 1 OR 2 TARGET POINTS - ACCURACY RAPIDLY DROPS AFTER 2 POINTS DUE TO LACK OF DEGREES OF FREEDOM IN A 4 BAR LINAKGE SYSTEM
 
-![Image of how the program looks and works](Examples/Screenshot_2026-01-05_134626.png)
+![Image of how the program looks and works](Examples/ExampleUseImage.png)
